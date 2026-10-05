@@ -1,0 +1,210 @@
+{
+  "dataset_name": "ScribeFlow Multi-Disciplinary Academic Corpus",
+  "generated_at": "2026-10-02T18:52:39.276881+00:00",
+  "total_classes": 10,
+  "total_examples": 1182,
+  "columns": [
+    "topic",
+    "text",
+    "source_name",
+    "source_url",
+    "license",
+    "source_category"
+  ],
+  "classes": [
+    {
+      "topic": "English / Literature",
+      "raw_fetched": 141,
+      "duplicates_filtered": 2,
+      "final_unique_count": 139,
+      "sources": [
+        "English Wikipedia (Wikimedia Foundation)"
+      ],
+      "licenses": [
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+      ],
+      "sample_urls": [
+        "https://en.wikipedia.org/wiki/Literary_genre",
+        "https://en.wikipedia.org/wiki/Mashup_novel",
+        "https://en.wikipedia.org/wiki/Aattakatha_(performance)"
+      ],
+      "sample_excerpt": "A literary genre is a category of literature. Genres may be determined by literary technique, tone, content, or length. They generally move from more abstract, ..."
+    },
+    {
+      "topic": "Computer Science / IT",
+      "raw_fetched": 184,
+      "duplicates_filtered": 1,
+      "final_unique_count": 140,
+      "sources": [
+        "English Wikipedia (Wikimedia Foundation)",
+        "arXiv (Cornell University)"
+      ],
+      "licenses": [
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "not verified"
+      ],
+      "sample_urls": [
+        "http://arxiv.org/abs/2610.02207v1",
+        "http://arxiv.org/abs/2610.02206v1",
+        "http://arxiv.org/abs/2610.02204v1"
+      ],
+      "sample_excerpt": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck an..."
+    },
+    {
+      "topic": "Electrical and Electronics Engineering",
+      "raw_fetched": 143,
+      "duplicates_filtered": 4,
+      "final_unique_count": 139,
+      "sources": [
+        "English Wikipedia (Wikimedia Foundation)",
+        "arXiv (Cornell University)"
+      ],
+      "licenses": [
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "not verified"
+      ],
+      "sample_urls": [
+        "http://arxiv.org/abs/2610.01904v1",
+        "http://arxiv.org/abs/2610.01895v1",
+        "http://arxiv.org/abs/2610.01826v1"
+      ],
+      "sample_excerpt": "Constrained combinatorial optimisation provides a mathematical framework for modelling a wide range of practical decision making problems, including energy netw..."
+    },
+    {
+      "topic": "Engineering (Mechanical, Civil, Chemical)",
+      "raw_fetched": 103,
+      "duplicates_filtered": 1,
+      "final_unique_count": 102,
+      "sources": [
+        "English Wikipedia (Wikimedia Foundation)"
+      ],
+      "licenses": [
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+      ],
+      "sample_urls": [
+        "https://en.wikipedia.org/wiki/Adaptive_machine",
+        "https://en.wikipedia.org/wiki/Agitator_(device)",
+        "https://en.wikipedia.org/wiki/Air_handler"
+      ],
+      "sample_excerpt": "An adaptive machine is a category of industrial machinery characterized by the ability to adapt itself to the product to be produced, e.g. to move individual pr..."
+    },
+    {
+      "topic": "Biology / Life Sciences",
+      "raw_fetched": 149,
+      "duplicates_filtered": 0,
+      "final_unique_count": 140,
+      "sources": [
+        "English Wikipedia (Wikimedia Foundation)",
+        "arXiv (Cornell University)"
+      ],
+      "licenses": [
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "not verified"
+      ],
+      "sample_urls": [
+        "http://arxiv.org/abs/2610.01891v1",
+        "http://arxiv.org/abs/2610.01663v1",
+        "http://arxiv.org/abs/2610.01358v1"
+      ],
+      "sample_excerpt": "Protein mutation effect generation asks a model to describe the functional consequence of a point mutation in natural language. Existing protein-to-text systems..."
+    },
+    {
+      "topic": "Physics",
+      "raw_fetched": 151,
+      "duplicates_filtered": 1,
+      "final_unique_count": 140,
+      "sources": [
+        "English Wikipedia (Wikimedia Foundation)",
+        "arXiv (Cornell University)"
+      ],
+      "licenses": [
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "not verified"
+      ],
+      "sample_urls": [
+        "http://arxiv.org/abs/2610.01387v1",
+        "http://arxiv.org/abs/2609.39320v1",
+        "http://arxiv.org/abs/2609.37665v1"
+      ],
+      "sample_excerpt": "We have theoretically investigated the stochastic switching dynamics of a charged microparticle in a quadrupole trap near the principal parametric resonance at ..."
+    },
+    {
+      "topic": "Chemistry",
+      "raw_fetched": 113,
+      "duplicates_filtered": 5,
+      "final_unique_count": 108,
+      "sources": [
+        "English Wikipedia (Wikimedia Foundation)",
+        "arXiv (Cornell University)"
+      ],
+      "licenses": [
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "not verified"
+      ],
+      "sample_urls": [
+        "http://arxiv.org/abs/2610.02013v1",
+        "http://arxiv.org/abs/2610.01880v1",
+        "http://arxiv.org/abs/2610.01771v1"
+      ],
+      "sample_excerpt": "Equivariant machine learning interatomic potentials (MLIPs) have revolutionized atomistic modeling, but accurate treatment of complex materials and molecular sy..."
+    },
+    {
+      "topic": "Mathematics",
+      "raw_fetched": 130,
+      "duplicates_filtered": 2,
+      "final_unique_count": 128,
+      "sources": [
+        "English Wikipedia (Wikimedia Foundation)",
+        "arXiv (Cornell University)"
+      ],
+      "licenses": [
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "not verified"
+      ],
+      "sample_urls": [
+        "http://arxiv.org/abs/2610.02158v1",
+        "http://arxiv.org/abs/2610.02115v1",
+        "http://arxiv.org/abs/2610.02106v1"
+      ],
+      "sample_excerpt": "We consider the problem of sampling from Gibbs distributions on matrix spaces whose potential energies are neither convex nor globally gradient-Lipschitz. We in..."
+    },
+    {
+      "topic": "History",
+      "raw_fetched": 66,
+      "duplicates_filtered": 0,
+      "final_unique_count": 66,
+      "sources": [
+        "English Wikipedia (Wikimedia Foundation)"
+      ],
+      "licenses": [
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+      ],
+      "sample_urls": [
+        "https://en.wikipedia.org/wiki/Ancestral_civilisation",
+        "https://en.wikipedia.org/wiki/Ancient_history",
+        "https://en.wikipedia.org/wiki/Ancient_text_corpora"
+      ],
+      "sample_excerpt": "Ancestral civilisation or ancestral people is a term used to refer to ancient inhabitants of a modern country, in which that civilisation had its center or birt..."
+    },
+    {
+      "topic": "Economics",
+      "raw_fetched": 80,
+      "duplicates_filtered": 0,
+      "final_unique_count": 80,
+      "sources": [
+        "English Wikipedia (Wikimedia Foundation)",
+        "arXiv (Cornell University)"
+      ],
+      "licenses": [
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "not verified"
+      ],
+      "sample_urls": [
+        "http://arxiv.org/abs/2610.01935v1",
+        "http://arxiv.org/abs/2610.01654v1",
+        "http://arxiv.org/abs/2610.01465v1"
+      ],
+      "sample_excerpt": "Text, images, and other rich covariates are increasingly compressed into AI-learned representations and then used as controls in causal analysis. We study when ..."
+    }
+  ]
+}

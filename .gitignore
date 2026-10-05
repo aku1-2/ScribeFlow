@@ -1,0 +1,55 @@
+# Environment files and secrets (including templates shared outside Git)
+.env
+.env.*
+.env.local
+.env.example
+**/.env.example
+*.env
+*.env.example
+
+# Python virtual environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Node dependencies and generated frontend output
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Local database files and SQLite journals
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+
+# Logs and operating-system metadata
+*.log
+.DS_Store
+Thumbs.db
+
+# Personal test files
+/audiotesting.mp3
+/audiotesting_transcript.txt
+
+# Dataset and trained artifacts are local-only until redistribution rights are verified
+/backend/data/lectures_multidisciplinary.csv
+/backend/data/evaluation_report.md
+/backend/app/topic_model.joblib
+/backend/app/topic_model_metadata.json
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
